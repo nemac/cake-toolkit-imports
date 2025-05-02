@@ -1,1 +1,8 @@
 # cake-toolkit-imports
+
+## Step by Step
+- Download as CSV [CRT + Cake Case Study Transfer](https://docs.google.com/spreadsheets/d/1gCpeyQdPyz8r_Ku6E9gSI355noieKkJQytFXvOzJ3Gs/edit?pli=1&gid=93249297#gid=93249297) as `cake_selected_case_studies.csv`
+- Using Content Export Module [Example on CAKE Dev](https://dev-cakex.pantheonsite.io/admin/content/content-export) export all Case Studies as `example_cake_export.csv` but be sure to leave `field_proj_website` and `field_spotlight_link` unchecked due to [this bug](https://www.drupal.org/project/content_export_csv/issues/3454061)
+- Delete first row from `cake_selected_case_studies.csv` or confirm that the first row is the header row
+- Run python script to leave only case studies that should be imported to toolkit `python3 filter.py cake_selected_case_studies.csv example_cake_export.csv cake_case_studies_to_import.csv`
+
