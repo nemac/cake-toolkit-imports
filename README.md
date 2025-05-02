@@ -15,3 +15,7 @@
 - [Export feed config from dev site](https://toolkit.nemac.org/admin/config/development/configuration/full/export)
 - Import exported config
 - Import case studies on prod
+- Modify Narrative (body) as necessary
+- Add [CAKE Org](https://toolkit.climate.gov/organization/climate-adaptation-knowledge-exchange) as a Source to all case studies
+- Add relevant links that were unable to be exported
+- Add relevant files/media that were unable to be exported
