@@ -6,3 +6,12 @@
 - Delete first row "CAKE's WORKING SPREADSHEET IS HERE! USE THIS SPREADSHEET TO UPDATE & SHARE WITH NEMAC" from `cake_selected_case_studies.csv` or confirm that the first row is the header row
 - Run python script to leave only case studies that should be imported to toolkit `python3 filter.py cake_selected_case_studies.csv example_cake_export.csv cake_case_studies_to_import.csv`
 
+
+
+# TODOS
+- Write a script in python to translate taxonomy using the dictionary that Dani sent on slack earlier
+- Create a feed on dev toolkit site and map all of the fields correctly using `cake_case_studies_to_import.csv`
+- Do a test import on dev toolkit site
+- [Export feed config from dev site](https://toolkit.nemac.org/admin/config/development/configuration/full/export)
+- Import exported config
+- Import case studies on prod
