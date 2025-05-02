@@ -9,6 +9,7 @@
 
 
 # TODOS
+- CAKE case studies Project Background and Project Implementation both map to Narrative (body) on toolkit. These will need to be combined into a "combined_body" column before import.
 - Create a feed on dev toolkit site and map all of the fields correctly using `cake_case_studies_to_import.csv`
 - Do a test import on dev toolkit site
 - [Export feed config from dev site](https://toolkit.nemac.org/admin/config/development/configuration/full/export)
